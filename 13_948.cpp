@@ -47,3 +47,10 @@ int main()
     cout << s.bagOfTokensScore(v, power) << endl;
     return 0;
 }
+
+
+
+
+// I thought the code but didnt got the question 
+// I thought we have to find the score 
+// I didnt got that much ki I have to find the maximum reached score that much is added from solution and whole code is written be me 
