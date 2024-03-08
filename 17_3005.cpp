@@ -5,36 +5,29 @@
 
 using namespace std;
 
-class Solution
-{
+class Solution {
 public:
-    int maxFrequencyElements(vector<int> &nums)
-    {
-        int countMax = 0;
+    int maxFrequencyElements(vector<int>& nums) {
+        int max_all=0;
+        int max = -1;
         unordered_map<int, int> v;
-        int big = -1;
-        for (int i = 0; i < nums.size(); i++)
-        {
+        for (int i = 0; i < nums.size(); i++) {
             v[nums[i]]++;
+            
         }
-        for (auto it : v)
-        {
-            if (it.second > big)
-            {
-                big = it.second;
+        for(auto it:v){
+            if(it.second>max){
+                max=it.second;
             }
         }
-        for (auto it : v)
-        {
-            if (it.second == big)
-            {
-                countMax += big;
+        for(auto it:v){
+            if(it.second==max){
+                max_all+=max;
             }
         }
-        return countMax;
+        return max_all;
     }
 };
-
 int main()
 {
     vector<int> nums = {1, 2, 3, 4, 5};
@@ -42,3 +35,6 @@ int main()
     cout << s.maxFrequencyElements(nums) << endl;
     return 0;
 }
+
+
+// completed by me not looked anything
