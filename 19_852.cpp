@@ -1,3 +1,9 @@
+// i solved that code   in 21 november 2023 
+// now i solved it in 9 march 2024
+// without looking at the code 
+// time complexity :- o(logn)
+// space complexity :- o(1)
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -36,9 +42,3 @@ int main()
     return 0;
 }
 
-
-// i solved that code   in 21 november 2023 
-// now i solved it in 9 march 2024
-// without looking at the code 
-// time complexity :- o(logn)
-// space complexity :- o(1)
