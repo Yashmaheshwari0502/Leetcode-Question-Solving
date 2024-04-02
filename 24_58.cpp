@@ -1,3 +1,7 @@
+// solved by me and not saw the topics 
+// time complexity : o(n)
+// space complexity : o(1)
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
