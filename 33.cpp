@@ -1,3 +1,5 @@
+// time complexity o(logn)
+// space complexity o(1)
 #include<iostream>
 #include <vector>
 #include <algorithm>
